@@ -13,10 +13,13 @@ int main(void)
 	int tens = '0';
 
 	for (tens = '0'; tens <= '9'; tens++)/*print tens digits*/
+
 	{
 		for (ones = '0'; ones <= '9'; ones++)/*print ones digit*/
+
 		{
-			if(!((ones == tens) || (tens > ones)))/*eliminate repititions*/
+			if (!((ones == tens) || (tens > ones)))/*eliminate repititions*/
+
 			{
 				putchar(tens);
 				putchar(ones);
