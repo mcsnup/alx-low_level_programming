@@ -1,1 +1,1 @@
-functioon nested loop ALX Task
+o_putchar fuction nested loops
