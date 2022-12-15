@@ -1,1 +1,1 @@
-This is a repository of C programming
+PRACTISING MORE ON FUNCTION NESTED LOOPS IN ALX PROGRAM
