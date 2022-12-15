@@ -7,28 +7,24 @@
  */
 int main(void)
 {
-	int j, i;
+	long int a, b, c, next;
 
-	for (j = 0; j <= 99; j++)
+	b = 1;
+
+	c = 2;
+	for (a = 1; a <= 50; ++a)
 	{
-		for (i = j; i <= 99; i++)
+		if (b != 20365011074)
 		{
-			if (i != j)
-			{
-				putchar(j / 10 + 48);
-				putchar(j % 10 + 48);
-				putchar(' ');
-				putchar(i / 10 + 48);
-				putchar(i % 10 + 48);
-
-				if (j * 100 + i != 9899)
-				{
-					putchar(',');
-					putchar(' ');
-				}
-			}
+			printf("%ld, ", b);
 		}
+		else
+		{
+			printf("%ld\n", b);
+		}
+		next = b + c;
+		b = c;
+		c = next;
 	}
-	putchar('\n');
 	return (0);
 }
