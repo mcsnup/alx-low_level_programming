@@ -1,10 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - magic moment
- * Return: Resulting string dest
- */
-
 int main(void)
 {
 	int n;
