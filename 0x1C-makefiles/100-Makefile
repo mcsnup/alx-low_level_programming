@@ -1,6 +1,6 @@
-Cr = gcc
-SR = main.c school.c
-OB = ${SRC:.c=.o}
+Cc = gcc
+SRc = main.c school.c
+OBj = ${SRC:.c=.o}
 NAME = school
 CFLAGS = -Wall -Werror -Wextra -pedantic
 
